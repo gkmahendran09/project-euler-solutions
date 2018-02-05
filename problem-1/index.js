@@ -12,3 +12,5 @@ function getSum(limit) {
 
 getSum(1000);
 // Ans - 233168
+
+// https://codepen.io/mahendranKannan/pen/gvMLdd?editors=0011
