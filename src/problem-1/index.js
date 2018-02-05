@@ -1,4 +1,4 @@
-function getSum(limit) {
+export function getSum(limit) {
   var sum = 0;
 
   for (let i = 0; i < limit; i++) {
@@ -8,9 +8,7 @@ function getSum(limit) {
   }
   return sum;
 }
-
-
-getSum(1000);
+//getSum(1000);
 // Ans - 233168
 
 // https://codepen.io/mahendranKannan/pen/gvMLdd?editors=0011
