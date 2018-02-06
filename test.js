@@ -25,7 +25,7 @@ test("3 - Get the largest prime factors of 13195", t => {
 });
 
 import { getLargestPalindromeProduct } from "./src/4.js";
-test.only("4 - Largest palindrome product", t => {
+test("4 - Largest palindrome product", t => {
   let largestPalindromeProduct = getLargestPalindromeProduct(2);
   t.is(largestPalindromeProduct, 9009);
   // 2 - 9009
