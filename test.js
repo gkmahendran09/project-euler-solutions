@@ -16,10 +16,11 @@ test("2 - Get sum of even Fibonacci numbers between 10", t => {
   // 4000000 - 4613732
 });
 
-test.only("3 - Get the largest prime factors of 13195", t => {
-  console.time("getLargestPrime");
-  let largestPrime = getLargestPrime(13195);
-  console.timeEnd("getLargestPrime");
-  t.is(largestPrime, 29);
-  // 600851475143 - 
+test("3 - Get the largest prime factors of 13195", t => {
+  // console.time("getLargestPrime");
+  let largestPrime = getLargestPrime(600851475143);
+  // console.timeEnd("getLargestPrime");
+  t.is(largestPrime, 6857);
+  // 13195 - 29
+  // 600851475143 - 6857
 });
