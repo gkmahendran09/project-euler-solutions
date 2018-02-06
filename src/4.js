@@ -1,10 +1,6 @@
 export function getLargestPalindromeProduct(digits) {
-    // 1 - 0 - 9
-    // 2 - 10 - 99
-    // 3 - 100 - 999
-    // 4 - 1000 - 9999
-    let min = 10;
-    let max = 99;
+    let min = Math.pow(10, digits - 1);
+    let max = Math.pow(10, digits) - 1;
     let largestPalindromeProduct = 0;
 
     for(let i = min; i <= max; i++) {
@@ -20,3 +16,8 @@ export function getLargestPalindromeProduct(digits) {
 
     return largestPalindromeProduct;
 }
+
+// digits - 3
+// Ans - 906609
+
+// https://codepen.io/mahendranKannan/pen/YeGxwb

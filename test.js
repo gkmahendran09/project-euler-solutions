@@ -42,7 +42,7 @@ test("4 - Largest palindrome product", t => {
   t.is(largestPalindromeProduct, 9009);
   // 2 - 9009
 
-  // let largestPalindromeProduct1 = getLargestPalindromeProduct(3);
-  // t.is(largestPalindromeProduct1, 906609);
+  let largestPalindromeProduct1 = getLargestPalindromeProduct(3);
+  t.is(largestPalindromeProduct1, 906609);
   // 3 - 906609
 });
