@@ -46,3 +46,14 @@ test("4 - Largest palindrome product", t => {
   t.is(largestPalindromeProduct1, 906609);
   // 3 - 906609
 });
+
+import { getSmallestMultiple } from "./src/5.js";
+test("5 - Smallest multiple", t => {
+  let smallestMultiple = getSmallestMultiple(10);
+  t.is(smallestMultiple, 2520);
+  // 10 - 2520
+
+  let smallestMultiple1 = getSmallestMultiple(20);
+  t.is(smallestMultiple1, 232792560);
+  // 20 - 232792560
+});
