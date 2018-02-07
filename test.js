@@ -57,3 +57,14 @@ test("5 - Smallest multiple", t => {
   t.is(smallestMultiple1, 232792560);
   // 20 - 232792560
 });
+
+import { getSumSquareDifference } from "./src/6.js";
+test("6 - Sum square difference", t => {
+  let sumSquareDifference = getSumSquareDifference(10);
+  t.is(sumSquareDifference, 2640);
+  // 10 - 2640
+
+  let sumSquareDifference1 = getSumSquareDifference(100);
+  t.is(sumSquareDifference1, 25164150);
+  // 100 - 25164150
+});
