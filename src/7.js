@@ -29,4 +29,4 @@ function isPrime(n) {
 // limit - 10001
 // Ans - 104743
 
-//
+// https://codepen.io/mahendranKannan/pen/jZVPeQ
