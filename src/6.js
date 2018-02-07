@@ -6,15 +6,11 @@ export function getSumSquareDifference(limit) {
 
     for(let i=1; i<=limit; i++) {
         sumOfSquares += Math.pow(i, 2);
+        squareOfSum += i;
     }
-
-    for (let i = 1; i <= limit; i++) {
-      squareOfSum += i;
-    }
-    squareOfSum = Math.pow(squareOfSum, 2);
 
     // Diff
-    sumSquareDiff = squareOfSum - sumOfSquares;
+    sumSquareDiff = Math.pow(squareOfSum, 2) - sumOfSquares;
 
     return sumSquareDiff;
 }
