@@ -68,3 +68,15 @@ test("6 - Sum square difference", t => {
   t.is(sumSquareDifference1, 25164150);
   // 100 - 25164150
 });
+
+import { getPrime } from "./src/7.js";
+test("7 - 10001st prime", t=> {
+  let primeNumber = getPrime(6);
+  t.is(primeNumber, 13);
+  // 6 - 13
+  // console.time("Prime Number");
+  let primeNumber1 = getPrime(10001);
+  t.is(primeNumber1, 104743);
+  // console.timeEnd("Prime Number");
+  // 10001 - 104743
+});
