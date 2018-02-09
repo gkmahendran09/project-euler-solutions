@@ -82,7 +82,7 @@ test("7 - 10001st prime", t=> {
 });
 
 import { getSumOfSelfPowers } from "./src/48.js";
-test.only("48 - Self powers", t => {
+test("48 - Self powers", t => {
   let sumOfSelfPowers = getSumOfSelfPowers(10);
   t.is(sumOfSelfPowers, '10405071317');
   // 10 - 10405071317
