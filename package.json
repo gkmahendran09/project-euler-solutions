@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/gkmahendran09/project-euler-solutions/issues"
   },
-  "homepage": "https://github.com/gkmahendran09/project-euler-solutions#readme"
+  "homepage": "https://github.com/gkmahendran09/project-euler-solutions#readme",
+  "dependencies": {
+    "big-integer": "^1.6.26"
+  }
 }
