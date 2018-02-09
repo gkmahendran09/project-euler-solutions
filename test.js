@@ -80,3 +80,14 @@ test("7 - 10001st prime", t=> {
   // console.timeEnd("Prime Number");
   // 10001 - 104743
 });
+
+import { getSumOfSelfPowers } from "./src/48.js";
+test.only("48 - Self powers", t => {
+  let sumOfSelfPowers = getSumOfSelfPowers(10);
+  t.is(sumOfSelfPowers, 10405071317);
+  // 10 - 10405071317
+
+  let sumOfSelfPowers1 = getSumOfSelfPowers(1000);
+  t.is(sumOfSelfPowers1, 10405071317);
+  // 1000 - ?
+});
