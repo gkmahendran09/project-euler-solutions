@@ -81,6 +81,17 @@ test("7 - 10001st prime", t=> {
   // 10001 - 104743
 });
 
+import { getLargestProduct } from "./src/8.js";
+test("8 - Largest product in a series", t => {
+  let largestProduct = getLargestProduct(4);
+  t.is(largestProduct, 5832);
+  // 4 - 5832
+
+  let largestProduct1 = getLargestProduct(13);
+  t.is(largestProduct1, 23514624000);
+  // 13 - 23514624000
+});
+
 import { getSumOfSelfPowers } from "./src/48.js";
 test("48 - Self powers", t => {
   let sumOfSelfPowers = getSumOfSelfPowers(10);
