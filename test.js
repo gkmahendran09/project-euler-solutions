@@ -92,6 +92,17 @@ test("8 - Largest product in a series", t => {
   // 13 - 23514624000
 });
 
+import { getProductOfSpecialPythagoreanTriplet } from "./src/9.js";
+test.only("9 - Special Pythagorean triplet", t => {
+  let product = getProductOfSpecialPythagoreanTriplet(12);
+  t.is(product, 60);
+  // 12 - 60
+
+  let product1 = getProductOfSpecialPythagoreanTriplet(1000);
+  t.is(product1, 31875000);
+  // 1000 - 31875000
+});
+
 import { getSumOfSelfPowers } from "./src/48.js";
 test("48 - Self powers", t => {
   let sumOfSelfPowers = getSumOfSelfPowers(10);
