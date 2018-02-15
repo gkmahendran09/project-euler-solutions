@@ -13,4 +13,4 @@ export function getSummationOfPrimes(limit) {
 // limit - 2000000
 // Ans - 142913828922
 
-// 
+// https://codepen.io/mahendranKannan/pen/WMZYwQ
